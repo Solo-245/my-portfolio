@@ -4,7 +4,7 @@ import React from 'react'
 
 const Footer = ({isDarkMode}) => {
   return (
-   <div className='mt-20'>
+   <div id='footer' className='mt-20'>
         <div className='text-center'>
          <Image src={isDarkMode ? "/mate_dark.png" : "/mate.png"} alt="My Logo" width={800} height={100} 
           className='w-36 mx-auto mb-2'/>

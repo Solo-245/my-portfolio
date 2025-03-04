@@ -47,7 +47,7 @@ const Navbar = ({isDarkMode, setIsDarkMode}) => {
              className='bg-transparent border-none p-0'>
           <Image src={isDarkMode ? assets.sun_icon : assets.moon_icon} alt='moon' className='w-6' />
         </button>
-         <a href="contact" className='hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full ml-4 font-Ovo dark:border-white/50'>Contact 
+         <a href="#footer" className='hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full ml-4 font-Ovo dark:border-white/50'>Contact 
          <Image src={isDarkMode ? assets.arrow_icon_dark : assets.arrow_icon} alt='contact' className='w-3' /> </a>
          <button className='block md:hidden ml-3' onClick={openMenu}>
           <Image src={isDarkMode ? assets.menu_white : assets.menu_black} alt='menu' className='w-6' />
